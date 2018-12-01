@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "base-theme",
+  "name": "bass",
   "version": "0.0.1",
   "scripts": {
     "format": "prettier --write \"**/*.{js,json,scss,md}\"",
@@ -9,12 +9,15 @@
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open"
   },
   "husky": {
-    "hooks": {  
-     "pre-commit": "lint-staged"
+    "hooks": {
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
-    "*.js": ["prettier --single-quote --write", "git add"]
+    "*.js": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
   },
   "author": "Gustavo Verzola <verzola@gmail.com>",
   "devDependencies": {
