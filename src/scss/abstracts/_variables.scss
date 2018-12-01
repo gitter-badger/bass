@@ -14,7 +14,7 @@ $code-font-stack: "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
 
 /// Copy text color
 /// @type Color
-$text-color: rgb(34, 34, 34) !default;
+$text-color: #333 !default;
 
 /// Main brand color
 /// @type Color
@@ -49,4 +49,4 @@ $breakpoints: (
 /// @type String
 /// @example scss - When using a CDN
 ///   $base-url: 'http://cdn.example.com/assets/';
-$base-url: "/assets/" !default;
+$base-url: "../" !default;
