@@ -2,7 +2,7 @@
 
 Boilerplate for static website based on webpack
 
-Stack
+## Stack
 - Webpack
 - ESLint
 - Stylelint
@@ -10,3 +10,7 @@ Stack
 - Husky
 - Lint-staged
 - SASS
+
+## TODO
+- Cleanup styles
+- Configure browsersync?
