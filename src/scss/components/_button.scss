@@ -1,0 +1,19 @@
+.c-button {
+    background: $brand-color;
+    border: 0;
+    padding: .5rem 1rem;
+    color: #fff;
+    border-radius: 3px;
+    transition: background .5s;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border-bottom: 3px solid darken($brand-color, 10%);
+    line-height: 1;
+    font-weight: bold;
+
+    @include on-event {
+        background: lighten($brand-color, 5%);
+        color: #fff;
+        text-decoration: none;
+    }
+}
