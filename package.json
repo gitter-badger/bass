@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "base-theme",
+  "name": "bass",
   "version": "0.0.1",
   "scripts": {
     "format": "prettier --write \"**/*.{js,json,scss,md}\"",
