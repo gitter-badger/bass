@@ -3,6 +3,7 @@
 Boilerplate for static website based on webpack
 
 ## Stack
+
 - Webpack
 - ESLint
 - Stylelint
@@ -12,5 +13,6 @@ Boilerplate for static website based on webpack
 - SASS
 
 ## TODO
+
 - Cleanup styles
 - Configure browsersync?
