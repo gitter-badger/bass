@@ -7,8 +7,11 @@ Boilerplate for static website based on webpack.
 ## Instructions
 
 ```sh
+# clone repo
 $ git clone https://github.com/verzola/bass.git
+# enter in directory
 $ cd bass
+# install node dependencies
 $ yarn
 # develop with hot code reload
 $ yarn run dev
