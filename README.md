@@ -19,6 +19,7 @@ $ yarn run format
 ```
 
 ## Features
+
 - Webpack to bundle application
 - Write modern JavaScript with Babel
 - Lint your code with ESLint and Stylelint
@@ -62,7 +63,6 @@ A pre-commit hook ensures that the files you commit are properly formatted.
 (Learn more about Husky)[https://github.com/typicode/husky]
 
 (Learn more about Lint-staged)[https://github.com/okonet/lint-staged]
-
 
 ### SASS
 
