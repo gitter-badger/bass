@@ -3,7 +3,7 @@
   "name": "bass",
   "version": "0.0.1",
   "scripts": {
-    "format": "prettier --write \"**/*.{js,json,scss,md}\"",
+    "format": "prettier --single-quote --write \"**/*.{js,json,scss,md}\"",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules --env.production",
     "dev": "webpack-dev-server --open"
   },
