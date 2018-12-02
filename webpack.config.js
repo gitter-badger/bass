@@ -1,4 +1,3 @@
-const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin');
 const ImageminPlugin = require('imagemin-webpack-plugin').default;
