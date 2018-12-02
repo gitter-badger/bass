@@ -8,15 +8,11 @@ const path = require('path');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 
 module.exports = {
   mode: devMode ? 'development' : 'production',
   devtool: devMode ? 'inline-source-map' : false,
-  devServer: {
-    contentBase: path.join(__dirname, 'dist'),
-    port: 3000,
-    quiet: true
-  },
   entry: {
     main: './src/js/index.js'
   },
@@ -25,6 +21,11 @@ module.exports = {
     filename: devMode ? '[name].js' : '[name].[hash].js'
   },
   plugins: [
+    new BrowserSyncPlugin({
+      host: 'localhost',
+      port: 3000,
+      server: { baseDir: ['dist'] }
+    }),
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: './index.html',

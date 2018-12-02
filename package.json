@@ -5,7 +5,7 @@
   "scripts": {
     "format": "prettier --single-quote --write \"**/*.{js,json,scss,md}\"",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules --env.production",
-    "dev": "webpack-dev-server --open"
+    "dev": "cross-env NODE_ENV=development webpack --watch --progress --hide-modules --env.development"
   },
   "husky": {
     "hooks": {
@@ -25,6 +25,8 @@
     "autoprefixer": "^9.3.1",
     "babel-loader": "^8.0.4",
     "babel-plugin-transform-class-properties": "^6.24.1",
+    "browser-sync": "^2.26.3",
+    "browser-sync-webpack-plugin": "^2.2.2",
     "clean-webpack-plugin": "^1.0.0",
     "cross-env": "^5.2.0",
     "css-loader": "^1.0.1",
@@ -54,9 +56,7 @@
     "uglifyjs-webpack-plugin": "^2.0.1",
     "url-loader": "^1.1.2",
     "webpack": "^4.26.0",
-    "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.10",
-    "webpack-merge": "^4.1.4"
+    "webpack-cli": "^3.1.2"
   },
   "dependencies": {
     "normalize.css": "^8.0.1"

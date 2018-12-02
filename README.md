@@ -80,6 +80,3 @@ Config is located on **src/scss/postcss.config.js** folder
 [Learn more about cssnano](https://cssnano.co/)
 
 [Learn more about autoprefixer](https://autoprefixer.github.io/)
-
-## TODO
-- Configure browsersync
