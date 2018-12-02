@@ -7,8 +7,11 @@ Boilerplate for static website based on webpack.
 ## Instructions
 
 ```sh
+# clone repo
 $ git clone https://github.com/verzola/bass.git
+# enter in directory
 $ cd bass
+# install node dependencies
 $ yarn
 # develop with hot code reload
 $ yarn run dev
@@ -32,44 +35,51 @@ $ yarn run format
 
 ### Webpack
 
-You can tweak webpack config at webpack.config.js.
+You can tweak webpack config at **webpack.config.js**
 
-(Learn more about Webpack)[http://webpack.js.org/]
+[Learn more about Webpack](http://webpack.js.org/)
 
 ### Babel
 
 Write modern JavaScript and compile to JavaScript that legacy browsers can understand.
 
-(Learn more about Babel)[https://babeljs.io/]
+[Learn more about Babel](https://babeljs.io/)
 
 ### ESLint & StyleLint
 
 Lint your code with community recommended standards.
 
-ESLint config: .eslintrc.json
+ESLint config: **.eslintrc.json**
 
-Stylelint config: .stylelintrc.json
+Stylelint config: **.stylelintrc.json**
 
-(Learn more about ESLint)[https://eslint.org/]
+[Learn more about ESLint](https://eslint.org/)
 
-(Learn more about StyleLint)[https://stylelint.io/]
+[Learn more about StyleLint](https://stylelint.io/)
 
 ### Prettier, husky & Lint-staged
 
 A pre-commit hook ensures that the files you commit are properly formatted.
 
-(Learn more about Prettier)[https://prettier.io/]
+[Learn more about Prettier](https://prettier.io/)
 
-(Learn more about Husky)[https://github.com/typicode/husky]
+[Learn more about Husky](https://github.com/typicode/husky)
 
-(Learn more about Lint-staged)[https://github.com/okonet/lint-staged]
+[Learn more about Lint-staged](https://github.com/okonet/lint-staged)
 
 ### SASS
 
-Based on (sass-boilerplate)[https://github.com/HugoGiraudel/sass-boilerplate] with some vertical rhythm tweaks and some default style.
+Based on [sass-boilerplate](https://github.com/HugoGiraudel/sass-boilerplate) with some vertical rhythm tweaks and some default style.
 
 ### PostCSS
 
 PostCSS is configured with CSSNano and Autoprefixer plugins.
 
-Config is located on src/scss/postcss.config.js folder
+Config is located on **src/scss/postcss.config.js** folder
+
+[Learn more about cssnano](https://cssnano.co/)
+
+[Learn more about autoprefixer](https://autoprefixer.github.io/)
+
+## TODO
+- Configure browsersync
