@@ -2,11 +2,14 @@
 
 # :musical_score: Bass
 
+![](https://david-dm.org/verzola/bass/status.svg)
+![](https://david-dm.org/verzola/bass/dev-status.svg)
+
 Boilerplate for static website based on webpack, best practices and modern tools.
 
-[Demo](https://bass-demo.netlify.com/)
+[:rocket: Demo](https://bass-demo.netlify.com/)
 
-## Features
+## :trophy: Features
 
 - Webpack to bundle application
 - Write modern JavaScript with Babel
@@ -17,7 +20,7 @@ Boilerplate for static website based on webpack, best practices and modern tools
 - Auto prefixes CSS
 - 7in1 SASS pattern
 
-## Requirements
+## :ballot_box_with_check: Requirements
 
 - [Docker](https://docs.docker.com/install/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
@@ -28,7 +31,7 @@ OR
 - NPM or [Yarn](https://yarnpkg.com/en/docs/install)
 
 
-## Instructions
+## :page_with_curl: Instructions
 
 ```sh
 # clones this repository
@@ -54,7 +57,7 @@ $ yarn run build
 $ yarn run format
 ```
 
-### Webpack
+### :spider_web: :package: Webpack
 
 You can tweak webpack config at **webpack.config.js**.
 
@@ -66,7 +69,7 @@ Write modern JavaScript and compile to JavaScript that old browsers understand.
 
 [Learn more about Babel](https://babeljs.io/)
 
-### ESLint & StyleLint
+### :no_entry_sign: :hankey: ESLint & StyleLint
 
 Lint your code with community recommended standards.
 
@@ -78,7 +81,7 @@ Stylelint config: **.stylelintrc.json**
 
 [Learn more about StyleLint](https://stylelint.io/)
 
-### Prettier, husky & Lint-staged
+### :no_entry_sign: :hankey: Prettier, husky & Lint-staged
 
 A pre-commit hook ensures that the files you commit are properly formatted.
 
@@ -88,7 +91,7 @@ A pre-commit hook ensures that the files you commit are properly formatted.
 
 [Learn more about Lint-staged](https://github.com/okonet/lint-staged)
 
-### SASS
+### :eyeglasses: SASS
 
 Based on [sass-boilerplate](https://github.com/HugoGiraudel/sass-boilerplate) with some vertical rhythm tweaks and some default style.
 
