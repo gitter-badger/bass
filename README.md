@@ -92,4 +92,3 @@ PostCSS configuration is located on **postcss.config.js** folder.
 ## TODO
 - Progressive Web App with Workbox Webpack Plugin
 - Add greenkeeper to keep packages updated
-- Add docker support
