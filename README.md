@@ -1,10 +1,10 @@
+<img width="100" src="https://raw.githubusercontent.com/verzola/bass/master/src/img/bass.png">
+
 # Bass
 
 Boilerplate for static website based on webpack, best practices and modern tools.
 
 [Demo](https://bass-demo.netlify.com/)
-
-![Doublebass](https://raw.githubusercontent.com/verzola/bass/master/src/img/bass.png)
 
 ## Features
 
