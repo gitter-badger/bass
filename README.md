@@ -34,27 +34,19 @@ OR
 ## :page_with_curl: Instructions
 
 ```sh
-# clones this repository
 $ git clone https://github.com/verzola/bass.git
-
-# enter in directory
 $ cd bass
+# to run on docker
+$ docker-compose up -d
 
-# install node dependencies
+# or to run locally
 $ yarn # or npm install
-
 # develop with hot code reload
 $ yarn run dev
 
-OR
-
-$ docker-compose up -d
-
-# builds static website to dist folder
-$ yarn run build
-
-# formats code
-$ yarn run format
+# Other scripts
+$ yarn run build # builds website to dist folder
+$ yarn run format # formats code using prettier
 ```
 
 ### :spider_web: :package: Webpack
