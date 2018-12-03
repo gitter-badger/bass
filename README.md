@@ -15,6 +15,15 @@ Boilerplate for static website based on webpack, best practices and modern tools
 - Auto prefixes CSS
 - 7in1 SASS pattern
 
+## Requirements
+
+- Docker
+- Docker Compose
+or
+- Node
+- NPM or Yarn
+
+
 ## Instructions
 
 ```sh
@@ -25,10 +34,12 @@ $ git clone https://github.com/verzola/bass.git
 $ cd bass
 
 # install node dependencies
-$ yarn
+$ yarn # or npm install
 
 # develop with hot code reload
 $ yarn run dev
+OR
+$ docker-compose up -d
 
 # builds static website to dist folder
 $ yarn run build
