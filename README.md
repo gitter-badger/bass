@@ -104,6 +104,10 @@ PostCSS configuration is located on **postcss.config.js** folder.
 
 [Learn more about Autoprefixer](https://autoprefixer.github.io/)
 
+### Google Fonts
+The default installation comes with Open Sans google web font downloaded locally.
+If you a different a different one, you can use [Google Webfonts Helper](https://google-webfonts-helper.herokuapp.com/fonts) to download the CSS snippet and the fonts file.
+
 ## Contributing
 Contribuitions are welcome. If you find any problem or have a suggestion, please [open an issue](https://github.com/verzola/bass/issues/new).
 
