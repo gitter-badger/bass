@@ -31,18 +31,20 @@ OR
 - NPM or [Yarn](https://yarnpkg.com/en/docs/install)
 
 
-## :page_with_curl: Instructions
+## :scroll: Instructions
 
 ```sh
+# clone repo
 $ git clone https://github.com/verzola/bass.git
+# enter in directory
 $ cd bass
-# to run on docker
+# run on docker
 $ docker-compose up -d
 
-# or to run locally
+# or run locally
 $ yarn # or npm install
 # develop with hot code reload
-$ yarn run dev
+$ yarn run dev # or npm run dev
 
 # other scripts
 $ yarn run build # builds website to dist folder
@@ -58,7 +60,7 @@ You can tweak webpack config at **webpack.config.js**.
 
 [Learn more about Webpack](http://webpack.js.org/)
 
-### Babel
+### :tropical_fish: Babel
 
 Write modern JavaScript and compile to JavaScript that old browsers understand.
 
