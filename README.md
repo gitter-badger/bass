@@ -1,10 +1,15 @@
-# Bass
+<img width="100" src="https://raw.githubusercontent.com/verzola/bass/master/src/img/bass.png">
+
+# :musical_score: Bass
+
+![](https://david-dm.org/verzola/bass/status.svg)
+![](https://david-dm.org/verzola/bass/dev-status.svg)
 
 Boilerplate for static website based on webpack, best practices and modern tools.
 
-![Doublebass](https://raw.githubusercontent.com/verzola/bass/master/src/img/bass.png)
+[:rocket: Demo](https://bass-demo.netlify.com/)
 
-## Features
+## :trophy: Features
 
 - Webpack to bundle application
 - Write modern JavaScript with Babel
@@ -15,29 +20,36 @@ Boilerplate for static website based on webpack, best practices and modern tools
 - Auto prefixes CSS
 - 7in1 SASS pattern
 
-## Instructions
+## :ballot_box_with_check: Requirements
+
+- [Docker](https://docs.docker.com/install/)
+- [Docker Compose](https://docs.docker.com/compose/install/)
+
+OR
+
+- [Node](https://nodejs.org/en/download/)
+- NPM or [Yarn](https://yarnpkg.com/en/docs/install)
+
+
+## :page_with_curl: Instructions
 
 ```sh
-# clones this repository
 $ git clone https://github.com/verzola/bass.git
-
-# enter in directory
 $ cd bass
+# to run on docker
+$ docker-compose up -d
 
-# install node dependencies
-$ yarn
-
+# or to run locally
+$ yarn # or npm install
 # develop with hot code reload
 $ yarn run dev
 
-# builds static website to dist folder
-$ yarn run build
-
-# formats code
-$ yarn run format
+# Other scripts
+$ yarn run build # builds website to dist folder
+$ yarn run format # formats code using prettier
 ```
 
-### Webpack
+### :spider_web: :package: Webpack
 
 You can tweak webpack config at **webpack.config.js**.
 
@@ -49,7 +61,7 @@ Write modern JavaScript and compile to JavaScript that old browsers understand.
 
 [Learn more about Babel](https://babeljs.io/)
 
-### ESLint & StyleLint
+### :no_entry_sign: :hankey: ESLint & StyleLint
 
 Lint your code with community recommended standards.
 
@@ -61,7 +73,7 @@ Stylelint config: **.stylelintrc.json**
 
 [Learn more about StyleLint](https://stylelint.io/)
 
-### Prettier, husky & Lint-staged
+### :no_entry_sign: :hankey: Prettier, husky & Lint-staged
 
 A pre-commit hook ensures that the files you commit are properly formatted.
 
@@ -71,7 +83,7 @@ A pre-commit hook ensures that the files you commit are properly formatted.
 
 [Learn more about Lint-staged](https://github.com/okonet/lint-staged)
 
-### SASS
+### :eyeglasses: SASS
 
 Based on [sass-boilerplate](https://github.com/HugoGiraudel/sass-boilerplate) with some vertical rhythm tweaks and some default style.
 
@@ -88,6 +100,9 @@ PostCSS configuration is located on **postcss.config.js** folder.
 [Learn more about CSSNano](https://cssnano.co/)
 
 [Learn more about Autoprefixer](https://autoprefixer.github.io/)
+
+## Contributing
+Contribuitions are welcome. If you find any problem or have a suggestion, please [open an issue](https://github.com/verzola/bass/issues/new).
 
 ## TODO
 - Progressive Web App with Workbox Webpack Plugin
