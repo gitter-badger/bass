@@ -106,6 +106,9 @@ PostCSS configuration is located on **postcss.config.js** folder.
 
 [Learn more about Autoprefixer](https://autoprefixer.github.io/)
 
+## Contributing
+Contribuitions are welcome. If you find any problem or have a suggestion, please [open an issue](https://github.com/verzola/bass/issues/new).
+
 ## TODO
 - Progressive Web App with Workbox Webpack Plugin
 - Add greenkeeper to keep packages updated
