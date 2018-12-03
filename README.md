@@ -1,6 +1,6 @@
 <img width="100" src="https://raw.githubusercontent.com/verzola/bass/master/src/img/bass.png">
 
-# Bass
+# :musical_score: Bass
 
 Boilerplate for static website based on webpack, best practices and modern tools.
 
@@ -19,11 +19,13 @@ Boilerplate for static website based on webpack, best practices and modern tools
 
 ## Requirements
 
-- Docker
-- Docker Compose
-or
-- Node
-- NPM or Yarn
+- [Docker](https://docs.docker.com/install/)
+- [Docker Compose](https://docs.docker.com/compose/install/)
+
+OR
+
+- [Node](https://nodejs.org/en/download/)
+- NPM or [Yarn](https://yarnpkg.com/en/docs/install)
 
 
 ## Instructions
@@ -40,7 +42,9 @@ $ yarn # or npm install
 
 # develop with hot code reload
 $ yarn run dev
+
 OR
+
 $ docker-compose up -d
 
 # builds static website to dist folder
