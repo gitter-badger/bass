@@ -85,6 +85,11 @@ Autoprefixer adds browser prefixes automatically based on browserlist on **packa
 
 PostCSS configuration is located on **postcss.config.js** folder.
 
-[Learn more about cssnano](https://cssnano.co/)
+[Learn more about CSSNano](https://cssnano.co/)
 
-[Learn more about autoprefixer](https://autoprefixer.github.io/)
+[Learn more about Autoprefixer](https://autoprefixer.github.io/)
+
+## TODO
+- Progressive Web App with Workbox Webpack Plugin
+- Add greenkeeper to keep packages updated
+- Add docker support
