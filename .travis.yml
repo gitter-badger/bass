@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - 11
+  - 10
+install:
+  - yarn
+script:
+  - yarn test
+  - yarn run build
