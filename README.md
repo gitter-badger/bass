@@ -1,6 +1,6 @@
 # Bass
 
-Boilerplate for static website based on webpack, best practices and modern technologies.
+Boilerplate for static website based on webpack, best practices and modern tools.
 
 ![Doublebass](https://raw.githubusercontent.com/verzola/bass/master/src/img/bass.png)
 
