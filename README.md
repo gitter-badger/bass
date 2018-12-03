@@ -1,25 +1,8 @@
 # Bass
 
-Boilerplate for static website based on webpack.
+Boilerplate for static website based on webpack, best practices and modern technologies.
 
 ![Doublebass](https://raw.githubusercontent.com/verzola/bass/master/src/img/bass.png)
-
-## Instructions
-
-```sh
-# clone repo
-$ git clone https://github.com/verzola/bass.git
-# enter in directory
-$ cd bass
-# install node dependencies
-$ yarn
-# develop with hot code reload
-$ yarn run dev
-# builds static website to dist/
-$ yarn run build
-# formats code
-$ yarn run format
-```
 
 ## Features
 
@@ -28,20 +11,41 @@ $ yarn run format
 - Lint your code with ESLint and Stylelint
 - Format your code with Prettier
 - Ensure every commit is formatted with Husky & Lint-staged
-- Concatenate, optimize and minify JS, CSS and images
+- Optimize and minify HTML, CSS, JS and images
 - Auto prefixes CSS
-- Default styling
-- Scalable SASS pattern (7in1)
+- 7in1 SASS pattern
+
+## Instructions
+
+```sh
+# clones this repository
+$ git clone https://github.com/verzola/bass.git
+
+# enter in directory
+$ cd bass
+
+# install node dependencies
+$ yarn
+
+# develop with hot code reload
+$ yarn run dev
+
+# builds static website to dist folder
+$ yarn run build
+
+# formats code
+$ yarn run format
+```
 
 ### Webpack
 
-You can tweak webpack config at **webpack.config.js**
+You can tweak webpack config at **webpack.config.js**.
 
 [Learn more about Webpack](http://webpack.js.org/)
 
 ### Babel
 
-Write modern JavaScript and compile to JavaScript that legacy browsers can understand.
+Write modern JavaScript and compile to JavaScript that old browsers understand.
 
 [Learn more about Babel](https://babeljs.io/)
 
@@ -75,7 +79,11 @@ Based on [sass-boilerplate](https://github.com/HugoGiraudel/sass-boilerplate) wi
 
 PostCSS is configured with CSSNano and Autoprefixer plugins.
 
-Config is located on **src/scss/postcss.config.js** folder
+CSSNano minifies and optimizes the output CSS.
+
+Autoprefixer adds browser prefixes automatically based on browserlist on **package.json**.
+
+PostCSS configuration is located on **postcss.config.js** folder.
 
 [Learn more about cssnano](https://cssnano.co/)
 
