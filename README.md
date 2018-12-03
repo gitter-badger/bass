@@ -1,7 +1,7 @@
 <img width="100" src="https://raw.githubusercontent.com/verzola/bass/master/src/img/bass.png">
 
 # :musical_score: Bass
-
+![](https://travis-ci.org/verzola/bass.svg?branch=master)
 ![](https://david-dm.org/verzola/bass/status.svg)
 ![](https://david-dm.org/verzola/bass/dev-status.svg)
 
