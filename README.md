@@ -44,9 +44,12 @@ $ yarn # or npm install
 # develop with hot code reload
 $ yarn run dev
 
-# Other scripts
+# other scripts
 $ yarn run build # builds website to dist folder
 $ yarn run format # formats code using prettier
+$ yarn run lint # lint js & scss
+$ yarn run lint:js # lint js only
+$ yarn run lint:scss # lint scss only
 ```
 
 ### :spider_web: :package: Webpack
