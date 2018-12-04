@@ -56,7 +56,9 @@ $ yarn run lint:scss # lint scss only
 
 ### :spider_web: :package: Webpack
 
-Webpack config: **webpack.config.js**.
+Webpack bundles your application
+
+**Config:** *webpack.config.js*.
 
 [Learn more about Webpack](http://webpack.js.org/)
 
@@ -70,9 +72,9 @@ Write modern JavaScript and compile to JavaScript that old browsers understand.
 
 Lint your code with community recommended standards.
 
-ESLint config: **.eslintrc.json**
+**ESLint Config**: *.eslintrc.json**
 
-Stylelint config: **.stylelintrc.json**
+**Stylelint Config**: *.stylelintrc.json*
 
 [Learn more about ESLint](https://eslint.org/)
 
@@ -100,7 +102,7 @@ CSSNano minifies and optimizes the output CSS.
 
 Autoprefixer adds browser prefixes automatically based on browserlist on **package.json**.
 
-PostCSS config: **postcss.config.js**.
+**PostCSS Config:** *postcss.config.js*.
 
 [Learn more about CSSNano](https://cssnano.co/)
 
@@ -108,7 +110,7 @@ PostCSS config: **postcss.config.js**.
 
 ### Google Fonts
 The default installation comes with Open Sans Google Font downloaded locally.
-If you a different Google Font, you can use [Google Webfonts Helper](https://google-webfonts-helper.herokuapp.com/fonts) to download the CSS snippet and the fonts file and put them on **src/base/_fonts.scss** and **/src/fonts/** respectively.
+If you a different Google Font, you can use [Google Webfonts Helper](https://google-webfonts-helper.herokuapp.com/fonts) to download the CSS snippet and the fonts file and put them on *src/base/_fonts.scss* and */src/fonts/* respectively.
 
 ## Contributing
 Contribuitions are welcome. If you find any problem or have a suggestion, please [open an issue](https://github.com/verzola/bass/issues/new).
