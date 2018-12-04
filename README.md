@@ -116,5 +116,11 @@ If you a different Google Font, you can use [Google Webfonts Helper](https://goo
 Contribuitions are welcome. If you find any problem or have a suggestion, please [open an issue](https://github.com/verzola/bass/issues/new).
 
 ## TODO
-- [ ] Progressive Web App with Workbox Webpack Plugin
-- [ ] Add greenkeeper to keep packages updated
+- [ ] Progressive Web App
+- [ ] Imagemin section on README
+- [ ] Contribute file
+- [ ] Pull request template file
+- [ ] Create 404 page
+- [ ] Add footer style
+- [ ] Create grid component
+- [ ] Add breakpoint sass lib
