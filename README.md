@@ -133,6 +133,9 @@ If you a different Google Font, you can use [Google Webfonts Helper](https://goo
 
 Contribuitions are welcome. If you find any problem or have a suggestion, please [open an issue](https://github.com/verzola/bass/issues/new).
 
+## :warning: Known issues
+- Watch does not work on Docker Desktop on Windows ([see](https://discourse.roots.io/t/browsersync-not-watching-changes-in-docker-for-windows/11275))
+
 ## TODO 
 
 - [ ] Imagemin section on README
