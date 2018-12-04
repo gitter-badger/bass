@@ -10,7 +10,22 @@ Boilerplate for static website based on webpack, best practices and modern tools
 
 [:rocket: Demo](https://bass-demo.netlify.com/)
 
-## :trophy: Features
+## Table of contents
+
+1. [Features](#features)
+2. [Requirements](#requirements)
+3. [Instructions](#instructions)
+    1. [Webpack](#webpack)
+    2. [Babel](#babel)
+    3. [ESLint & Stylelint](#es-style-lint)
+    4. [Prettier, Husky & Lint-staged](#prettier-husky-lintstaged)
+    5. [SASS](#sass)
+    6. [PostCSS](#postcss)
+    7. [Google Fonts](#google-fonts)
+4. [Contribuiting](#contrib)
+5. [TODO](#todo)
+
+## :trophy: Features <a id="features"></a>
 
 - Webpack to bundle application
 - Write modern JavaScript with Babel
@@ -21,7 +36,7 @@ Boilerplate for static website based on webpack, best practices and modern tools
 - Auto prefixes CSS
 - 7in1 SASS pattern
 
-## :ballot_box_with_check: Requirements
+## :ballot_box_with_check: Requirements <a id="requirements"></a>
 
 - [Docker](https://docs.docker.com/install/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
@@ -31,7 +46,7 @@ OR
 - [Node](https://nodejs.org/en/download/)
 - NPM or [Yarn](https://yarnpkg.com/en/docs/install)
 
-## :scroll: Instructions
+## :scroll: Instructions <a id="instructions"></a>
 
 ```sh
 # clone repo
@@ -54,7 +69,7 @@ $ yarn run lint:js # lint js only
 $ yarn run lint:scss # lint scss only
 ```
 
-### :spider_web: :package: Webpack
+### :spider_web: :package: Webpack <a id="webpack"></a>
 
 Webpack bundles your application
 
@@ -62,13 +77,13 @@ Webpack bundles your application
 
 [Learn more about Webpack](http://webpack.js.org/)
 
-### :tropical_fish: Babel
+### :tropical_fish: Babel <a id="babel"></a>
 
 Write modern JavaScript and compile to JavaScript that old browsers understand.
 
 [Learn more about Babel](https://babeljs.io/)
 
-### :no_entry_sign: :hankey: ESLint & StyleLint
+### :no_entry_sign: :hankey: ESLint & StyleLint <a id="es-style-lint"></a>
 
 Lint your code with community recommended standards.
 
@@ -80,7 +95,7 @@ Lint your code with community recommended standards.
 
 [Learn more about StyleLint](https://stylelint.io/)
 
-### :no_entry_sign: :hankey: Prettier, husky & Lint-staged
+### :no_entry_sign: :hankey: Prettier, husky & Lint-staged <a id="prettier-husky-lintstaged"></a>
 
 A pre-commit hook ensures that the files you commit are properly formatted.
 
@@ -90,11 +105,11 @@ A pre-commit hook ensures that the files you commit are properly formatted.
 
 [Learn more about Lint-staged](https://github.com/okonet/lint-staged)
 
-### :eyeglasses: SASS
+### :eyeglasses: SASS ## :eyeglasses: SASS <a id="sass"></a>
 
 Based on [sass-boilerplate](https://github.com/HugoGiraudel/sass-boilerplate) with some vertical rhythm tweaks and some default style.
 
-### PostCSS
+### PostCSS <a id="postcss"></a>
 
 PostCSS is configured with CSSNano and Autoprefixer plugins.
 
@@ -108,16 +123,16 @@ Autoprefixer adds browser prefixes automatically based on browserlist on **packa
 
 [Learn more about Autoprefixer](https://autoprefixer.github.io/)
 
-### Google Fonts
+### Google Fonts <a id="google-fonts"></a>
 
 The default installation comes with Open Sans Google Font downloaded locally.
 If you a different Google Font, you can use [Google Webfonts Helper](https://google-webfonts-helper.herokuapp.com/fonts) to download the CSS snippet and the fonts file and put them on _src/base/\_fonts.scss_ and _/src/fonts/_ respectively.
 
-## Contributing
+## Contributing <a id="contrib"></a>
 
 Contribuitions are welcome. If you find any problem or have a suggestion, please [open an issue](https://github.com/verzola/bass/issues/new).
 
-## TODO
+## TODO 
 
 - [ ] Imagemin section on README
 - [ ] Normalize.css section on README
@@ -127,3 +142,8 @@ Contribuitions are welcome. If you find any problem or have a suggestion, please
 - [ ] Contribute file
 - [ ] Pull request template file
 - [ ] Progressive Web App
+- [ ] Favicon
+- [ ] OpenGraph
+- [ ] Other important meta tags
+- [ ] Extract babel config to a file
+- [ ] Create a chat and badge
