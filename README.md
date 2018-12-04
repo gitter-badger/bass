@@ -2,6 +2,8 @@
 
 # :musical_score: Bass
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/verzola/bass.svg)](https://greenkeeper.io/)
+
 ![](https://travis-ci.org/verzola/bass.svg?branch=master)
 ![](https://david-dm.org/verzola/bass/status.svg)
 ![](https://david-dm.org/verzola/bass/dev-status.svg)
