@@ -1,6 +1,7 @@
 <img width="100" src="https://raw.githubusercontent.com/verzola/bass/master/src/img/bass.png">
 
 # :musical_score: Bass
+
 ![](https://travis-ci.org/verzola/bass.svg?branch=master)
 ![](https://david-dm.org/verzola/bass/status.svg)
 ![](https://david-dm.org/verzola/bass/dev-status.svg)
@@ -30,7 +31,6 @@ OR
 - [Node](https://nodejs.org/en/download/)
 - NPM or [Yarn](https://yarnpkg.com/en/docs/install)
 
-
 ## :scroll: Instructions
 
 ```sh
@@ -58,7 +58,7 @@ $ yarn run lint:scss # lint scss only
 
 Webpack bundles your application
 
-**Config:** *webpack.config.js*.
+**Config:** _webpack.config.js_.
 
 [Learn more about Webpack](http://webpack.js.org/)
 
@@ -72,9 +72,9 @@ Write modern JavaScript and compile to JavaScript that old browsers understand.
 
 Lint your code with community recommended standards.
 
-**ESLint Config**: *.eslintrc.json**
+**ESLint Config**: \*.eslintrc.json\*\*
 
-**Stylelint Config**: *.stylelintrc.json*
+**Stylelint Config**: _.stylelintrc.json_
 
 [Learn more about ESLint](https://eslint.org/)
 
@@ -102,25 +102,28 @@ CSSNano minifies and optimizes the output CSS.
 
 Autoprefixer adds browser prefixes automatically based on browserlist on **package.json**.
 
-**PostCSS Config:** *postcss.config.js*.
+**PostCSS Config:** _postcss.config.js_.
 
 [Learn more about CSSNano](https://cssnano.co/)
 
 [Learn more about Autoprefixer](https://autoprefixer.github.io/)
 
 ### Google Fonts
+
 The default installation comes with Open Sans Google Font downloaded locally.
-If you a different Google Font, you can use [Google Webfonts Helper](https://google-webfonts-helper.herokuapp.com/fonts) to download the CSS snippet and the fonts file and put them on *src/base/_fonts.scss* and */src/fonts/* respectively.
+If you a different Google Font, you can use [Google Webfonts Helper](https://google-webfonts-helper.herokuapp.com/fonts) to download the CSS snippet and the fonts file and put them on _src/base/\_fonts.scss_ and _/src/fonts/_ respectively.
 
 ## Contributing
+
 Contribuitions are welcome. If you find any problem or have a suggestion, please [open an issue](https://github.com/verzola/bass/issues/new).
 
 ## TODO
+
 - [ ] Progressive Web App
 - [ ] Imagemin section on README
 - [ ] Contribute file
 - [ ] Pull request template file
 - [ ] Create 404 page
-- [ ] Add footer style
+- [ ] Footer style
 - [ ] Create grid component
-- [ ] Add breakpoint sass lib
+- [ ] Normalize.css section on README
