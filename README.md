@@ -107,7 +107,7 @@ A pre-commit hook ensures that the files you commit are properly formatted.
 
 [Learn more about Lint-staged](https://github.com/okonet/lint-staged)
 
-### :eyeglasses: SASS ## :eyeglasses: SASS <a id="sass"></a>
+### :eyeglasses: SASS <a id="sass"></a>
 
 Based on [sass-boilerplate](https://github.com/HugoGiraudel/sass-boilerplate) with some vertical rhythm tweaks and some default style.
 
