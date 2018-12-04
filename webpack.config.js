@@ -83,6 +83,10 @@ module.exports = {
         ]
       },
       {
+        test: /\.(json)$/,
+        use: ['file-loader']
+      },
+      {
         test: /\.(png|svg|jpg|gif)$/,
         use: ['file-loader']
       },
