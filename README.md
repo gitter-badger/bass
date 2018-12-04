@@ -119,11 +119,11 @@ Contribuitions are welcome. If you find any problem or have a suggestion, please
 
 ## TODO
 
-- [ ] Progressive Web App
 - [ ] Imagemin section on README
+- [ ] Normalize.css section on README
+- [ ] Footer style
+- [ ] Grid component
+- [ ] 404 page
 - [ ] Contribute file
 - [ ] Pull request template file
-- [ ] Create 404 page
-- [ ] Footer style
-- [ ] Create grid component
-- [ ] Normalize.css section on README
+- [ ] Progressive Web App
