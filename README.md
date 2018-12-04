@@ -16,13 +16,13 @@ Boilerplate for static website based on webpack, best practices and modern tools
 1. [Features](#features)
 2. [Requirements](#requirements)
 3. [Instructions](#instructions)
-    1. [Webpack](#webpack)
-    2. [Babel](#babel)
-    3. [ESLint & Stylelint](#es-style-lint)
-    4. [Prettier, Husky & Lint-staged](#prettier-husky-lintstaged)
-    5. [SASS](#sass)
-    6. [PostCSS](#postcss)
-    7. [Google Fonts](#google-fonts)
+   1. [Webpack](#webpack)
+   2. [Babel](#babel)
+   3. [ESLint & Stylelint](#es-style-lint)
+   4. [Prettier, Husky & Lint-staged](#prettier-husky-lintstaged)
+   5. [SASS](#sass)
+   6. [PostCSS](#postcss)
+   7. [Google Fonts](#google-fonts)
 4. [Contribuiting](#contrib)
 5. [TODO](#todo)
 
@@ -134,15 +134,15 @@ If you a different Google Font, you can use [Google Webfonts Helper](https://goo
 Contribuitions are welcome. If you find any problem or have a suggestion, please [open an issue](https://github.com/verzola/bass/issues/new).
 
 ## :warning: Known issues
+
 - Watch does not work on Docker Desktop on Windows ([see](https://discourse.roots.io/t/browsersync-not-watching-changes-in-docker-for-windows/11275))
 
-## TODO 
+## TODO
 
 - [ ] Imagemin section on README
 - [ ] Normalize.css section on README
 - [ ] Footer style
 - [ ] Grid component
-- [ ] 404 page
 - [ ] Contribute file
 - [ ] Pull request template file
 - [ ] Progressive Web App
