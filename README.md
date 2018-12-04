@@ -56,7 +56,7 @@ $ yarn run lint:scss # lint scss only
 
 ### :spider_web: :package: Webpack
 
-You can tweak webpack config at **webpack.config.js**.
+Webpack config: **webpack.config.js**.
 
 [Learn more about Webpack](http://webpack.js.org/)
 
@@ -100,15 +100,15 @@ CSSNano minifies and optimizes the output CSS.
 
 Autoprefixer adds browser prefixes automatically based on browserlist on **package.json**.
 
-PostCSS configuration is located on **postcss.config.js** folder.
+PostCSS config: **postcss.config.js**.
 
 [Learn more about CSSNano](https://cssnano.co/)
 
 [Learn more about Autoprefixer](https://autoprefixer.github.io/)
 
 ### Google Fonts
-The default installation comes with Open Sans google web font downloaded locally.
-If you a different a different one, you can use [Google Webfonts Helper](https://google-webfonts-helper.herokuapp.com/fonts) to download the CSS snippet and the fonts file.
+The default installation comes with Open Sans Google Font downloaded locally.
+If you a different Google Font, you can use [Google Webfonts Helper](https://google-webfonts-helper.herokuapp.com/fonts) to download the CSS snippet and the fonts file and put them on **src/base/_fonts.scss** and **/src/fonts/** respectively.
 
 ## Contributing
 Contribuitions are welcome. If you find any problem or have a suggestion, please [open an issue](https://github.com/verzola/bass/issues/new).
