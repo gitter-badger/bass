@@ -31,6 +31,11 @@ module.exports = {
       filename: './index.html',
       hot: true
     }),
+    new HtmlWebpackPlugin({
+      template: './src/404.html',
+      filename: './404.html',
+      hot: true
+    }),
     new MiniCssExtractPlugin({
       filename: devMode ? '[name].css' : '[name].[hash].css',
       chunkFilename: devMode ? '[id].css' : '[id].[hash].css'
