@@ -89,7 +89,7 @@ Write modern JavaScript and compile to JavaScript that old browsers understand.
 
 Lint your code with community recommended standards.
 
-**ESLint Config**: \*.eslintrc.json\*\*
+**ESLint Config**: _.eslintrc.json_
 
 **Stylelint Config**: _.stylelintrc.json_
 
