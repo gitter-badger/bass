@@ -39,7 +39,7 @@ Boilerplate for static website based on webpack, best practices and modern tools
 
 ## :ballot_box_with_check: Requirements <a id="requirements"></a>
 
-- [Docker](https://docs.docker.com/install/)
+- :whale: [Docker](https://docs.docker.com/install/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
 
 OR
