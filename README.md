@@ -40,12 +40,12 @@ Boilerplate for static website based on webpack, best practices and modern tools
 ## :ballot_box_with_check: Requirements <a id="requirements"></a>
 
 - :whale: [Docker](https://docs.docker.com/install/)
-- [Docker Compose](https://docs.docker.com/compose/install/)
+- :octopus: [Docker Compose](https://docs.docker.com/compose/install/)
 
 OR
 
 - [Node](https://nodejs.org/en/download/)
-- NPM or [Yarn](https://yarnpkg.com/en/docs/install)
+- NPM or :cat2: [Yarn](https://yarnpkg.com/en/docs/install)
 
 ## :scroll: Instructions <a id="instructions"></a>
 
