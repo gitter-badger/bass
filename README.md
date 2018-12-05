@@ -54,6 +54,7 @@ OR
 $ git clone https://github.com/verzola/bass.git
 # enter in directory
 $ cd bass
+
 # run on docker
 $ docker-compose up -d
 
