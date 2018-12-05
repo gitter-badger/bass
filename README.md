@@ -75,7 +75,7 @@ $ yarn run lint:scss # lint scss only
 
 Webpack bundles your application
 
-**Config:** _webpack.config.js_.
+**Config:** _webpack.config.js_
 
 [Learn more about Webpack](http://webpack.js.org/)
 
@@ -119,7 +119,7 @@ CSSNano minifies and optimizes the output CSS.
 
 Autoprefixer adds browser prefixes automatically based on browserlist on **package.json**.
 
-**PostCSS Config:** _postcss.config.js_.
+**PostCSS Config:** _postcss.config.js_
 
 [Learn more about CSSNano](https://cssnano.co/)
 
