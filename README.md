@@ -138,7 +138,7 @@ Contribuitions are welcome. If you find any problem or have a suggestion, please
 
 - Watch does not work on Docker Desktop on Windows ([see](https://discourse.roots.io/t/browsersync-not-watching-changes-in-docker-for-windows/11275))
 
-## TODO
+## :memo: TODO
 
 - [ ] Imagemin section on README
 - [ ] Normalize.css section on README
