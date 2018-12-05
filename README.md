@@ -130,7 +130,7 @@ Autoprefixer adds browser prefixes automatically based on browserlist on **packa
 The default installation comes with Open Sans Google Font downloaded locally.
 If you a different Google Font, you can use [Google Webfonts Helper](https://google-webfonts-helper.herokuapp.com/fonts) to download the CSS snippet and the fonts file and put them on _src/base/\_fonts.scss_ and _/src/fonts/_ respectively.
 
-## Contributing <a id="contrib"></a>
+## :raising_hand: Contributing <a id="contrib"></a>
 
 Contribuitions are welcome. If you find any problem or have a suggestion, please [open an issue](https://github.com/verzola/bass/issues/new).
 
