@@ -12,6 +12,12 @@
     display: flex;
   }
 
+  &__brand {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+
   &__social {
     margin-left: auto;
     font-size: 2rem;
