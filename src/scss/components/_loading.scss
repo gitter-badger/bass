@@ -1,0 +1,9 @@
+.c-loading {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 3px solid $light-grey;
+  border-bottom: 3px solid $brand-color;
+  animation: rotate 1s linear infinite;
+  margin: 0 auto;
+}

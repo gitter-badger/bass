@@ -29,6 +29,7 @@ $hamburger-types: (squeeze);
 @import 'base/base';
 @import 'base/fonts';
 @import 'base/typography';
+@import 'base/animations';
 @import 'base/helpers';
 
 // 4. Layout-related sections
@@ -43,6 +44,7 @@ $hamburger-types: (squeeze);
 @import 'components/author';
 @import 'components/grid';
 @import 'components/hero';
+@import 'components/loading';
 
 // 6. Page-specific styles
 @import 'pages/home';
