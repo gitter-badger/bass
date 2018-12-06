@@ -1,0 +1,13 @@
+.c-hero {
+  align-items: center;
+  background: #222;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 300px;
+
+  &--full {
+    min-height: 100vh;
+  }
+}
