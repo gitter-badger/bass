@@ -8,6 +8,16 @@
   padding: 1rem 0;
   font-weight: bold;
 
+  .container {
+    display: flex;
+  }
+
+  &__social {
+    margin-left: auto;
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
   h3 {
     margin: 0;
   }
