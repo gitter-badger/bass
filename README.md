@@ -39,13 +39,13 @@ Boilerplate for static website based on webpack, best practices and modern tools
 
 ## :ballot_box_with_check: Requirements <a id="requirements"></a>
 
-- [Docker](https://docs.docker.com/install/)
-- [Docker Compose](https://docs.docker.com/compose/install/)
+- :whale: [Docker](https://docs.docker.com/install/)
+- :octopus: [Docker Compose](https://docs.docker.com/compose/install/)
 
 OR
 
 - [Node](https://nodejs.org/en/download/)
-- NPM or [Yarn](https://yarnpkg.com/en/docs/install)
+- NPM or :cat2: [Yarn](https://yarnpkg.com/en/docs/install)
 
 ## :scroll: Instructions <a id="instructions"></a>
 
@@ -75,7 +75,7 @@ $ yarn run lint:scss # lint scss only
 
 Webpack bundles your application
 
-**Config:** _webpack.config.js_.
+**Config:** _webpack.config.js_
 
 [Learn more about Webpack](http://webpack.js.org/)
 
@@ -89,7 +89,7 @@ Write modern JavaScript and compile to JavaScript that old browsers understand.
 
 Lint your code with community recommended standards.
 
-**ESLint Config**: \*.eslintrc.json\*\*
+**ESLint Config**: _.eslintrc.json_
 
 **Stylelint Config**: _.stylelintrc.json_
 
@@ -119,7 +119,7 @@ CSSNano minifies and optimizes the output CSS.
 
 Autoprefixer adds browser prefixes automatically based on browserlist on **package.json**.
 
-**PostCSS Config:** _postcss.config.js_.
+**PostCSS Config:** _postcss.config.js_
 
 [Learn more about CSSNano](https://cssnano.co/)
 
@@ -130,7 +130,7 @@ Autoprefixer adds browser prefixes automatically based on browserlist on **packa
 The default installation comes with Open Sans Google Font downloaded locally.
 If you a different Google Font, you can use [Google Webfonts Helper](https://google-webfonts-helper.herokuapp.com/fonts) to download the CSS snippet and the fonts file and put them on _src/base/\_fonts.scss_ and _/src/fonts/_ respectively.
 
-## Contributing <a id="contrib"></a>
+## :raising_hand: Contributing <a id="contrib"></a>
 
 Contribuitions are welcome. If you find any problem or have a suggestion, please [open an issue](https://github.com/verzola/bass/issues/new).
 
@@ -138,7 +138,7 @@ Contribuitions are welcome. If you find any problem or have a suggestion, please
 
 - Watch does not work on Docker Desktop on Windows ([see](https://discourse.roots.io/t/browsersync-not-watching-changes-in-docker-for-windows/11275))
 
-## TODO
+## :memo: TODO
 
 - [ ] Imagemin section on README
 - [ ] Normalize.css section on README
