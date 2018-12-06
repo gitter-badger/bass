@@ -36,6 +36,11 @@ Boilerplate for static website based on webpack, best practices and modern tools
 - Optimize and minify HTML, CSS, JS and images
 - Auto prefixes CSS
 - 7in1 SASS pattern
+- Comes with:
+  - normalize.css
+  - fontawesome-free
+  - hamburgers
+  - open sans google font
 
 ## :ballot_box_with_check: Requirements <a id="requirements"></a>
 
