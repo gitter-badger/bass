@@ -17,10 +17,15 @@
 // 4. Layout-related sections
 @import 'layout/header';
 @import 'layout/main';
+@import 'layout/section';
 @import 'layout/footer';
 
 // 5. Components
 @import 'components/button';
+@import 'components/card';
+@import 'components/author';
+@import 'components/grid';
+@import 'components/hero';
 
 // 6. Page-specific styles
 @import 'pages/home';
