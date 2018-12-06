@@ -33,8 +33,10 @@
   }
 
   &__brand {
-    font-weight: bold;
+    font-weight: 300;
     color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
   }
 
   &__nav {
