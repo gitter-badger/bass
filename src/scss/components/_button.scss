@@ -1,5 +1,6 @@
 .c-button {
   background: #bdc3c7;
+  border-radius: 30px;
   border: 0;
   color: #fff;
   cursor: pointer;
@@ -9,13 +10,12 @@
   padding: 0.5rem 1rem;
   text-align: center;
   transition: background 150ms;
-  border-radius: 30px;
 
   @include on-event {
-    color: #fff;
-    text-decoration: none;
-    outline: 0;
     background: lighten(#bdc3c7, 5%);
+    color: #fff;
+    outline: 0;
+    text-decoration: none;
   }
 
   &--black {

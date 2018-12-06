@@ -5,8 +5,8 @@
 .l-footer {
   background: $dark-grey;
   color: #fff;
-  padding: 1rem 0;
   font-weight: bold;
+  padding: 1rem 0;
 
   .container {
     display: flex;
@@ -14,14 +14,14 @@
 
   &__brand {
     font-weight: 300;
-    text-transform: uppercase;
     letter-spacing: 5px;
+    text-transform: uppercase;
   }
 
   &__social {
-    margin-left: auto;
     font-size: 2rem;
     line-height: 3rem;
+    margin-left: auto;
   }
 
   h3 {

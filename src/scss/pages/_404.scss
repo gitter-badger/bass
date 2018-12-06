@@ -1,11 +1,13 @@
 .page-not-found {
+  align-items: center;
   background-color: #000;
+  color: #444;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  color: #444;
   min-height: 100vh;
+  text-align: center;
+  padding: 1rem;
 
   h1 {
     font-size: 10rem;
