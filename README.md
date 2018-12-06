@@ -3,7 +3,6 @@
 # :musical_score: Bass
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/verzola/bass.svg)](https://greenkeeper.io/)
-
 ![](https://travis-ci.org/verzola/bass.svg?branch=master)
 ![](https://david-dm.org/verzola/bass/status.svg)
 ![](https://david-dm.org/verzola/bass/dev-status.svg)
@@ -17,13 +16,13 @@ Boilerplate for static website based on webpack, best practices and modern tools
 1. [Features](#features)
 2. [Requirements](#requirements)
 3. [Instructions](#instructions)
-    1. [Webpack](#webpack)
-    2. [Babel](#babel)
-    3. [ESLint & Stylelint](#es-style-lint)
-    4. [Prettier, Husky & Lint-staged](#prettier-husky-lintstaged)
-    5. [SASS](#sass)
-    6. [PostCSS](#postcss)
-    7. [Google Fonts](#google-fonts)
+   1. [Webpack](#webpack)
+   2. [Babel](#babel)
+   3. [ESLint & Stylelint](#es-style-lint)
+   4. [Prettier, Husky & Lint-staged](#prettier-husky-lintstaged)
+   5. [SASS](#sass)
+   6. [PostCSS](#postcss)
+   7. [Google Fonts](#google-fonts)
 4. [Contribuiting](#contrib)
 5. [TODO](#todo)
 
@@ -37,16 +36,21 @@ Boilerplate for static website based on webpack, best practices and modern tools
 - Optimize and minify HTML, CSS, JS and images
 - Auto prefixes CSS
 - 7in1 SASS pattern
+- Comes with:
+  - normalize.css
+  - fontawesome-free
+  - hamburgers
+  - open sans google font
 
 ## :ballot_box_with_check: Requirements <a id="requirements"></a>
 
-- [Docker](https://docs.docker.com/install/)
-- [Docker Compose](https://docs.docker.com/compose/install/)
+- :whale: [Docker](https://docs.docker.com/install/)
+- :octopus: [Docker Compose](https://docs.docker.com/compose/install/)
 
 OR
 
 - [Node](https://nodejs.org/en/download/)
-- NPM or [Yarn](https://yarnpkg.com/en/docs/install)
+- NPM or :cat2: [Yarn](https://yarnpkg.com/en/docs/install)
 
 ## :scroll: Instructions <a id="instructions"></a>
 
@@ -55,6 +59,7 @@ OR
 $ git clone https://github.com/verzola/bass.git
 # enter in directory
 $ cd bass
+
 # run on docker
 $ docker-compose up -d
 
@@ -75,7 +80,7 @@ $ yarn run lint:scss # lint scss only
 
 Webpack bundles your application
 
-**Config:** _webpack.config.js_.
+**Config:** _webpack.config.js_
 
 [Learn more about Webpack](http://webpack.js.org/)
 
@@ -89,7 +94,7 @@ Write modern JavaScript and compile to JavaScript that old browsers understand.
 
 Lint your code with community recommended standards.
 
-**ESLint Config**: \*.eslintrc.json\*\*
+**ESLint Config**: _.eslintrc.json_
 
 **Stylelint Config**: _.stylelintrc.json_
 
@@ -107,7 +112,7 @@ A pre-commit hook ensures that the files you commit are properly formatted.
 
 [Learn more about Lint-staged](https://github.com/okonet/lint-staged)
 
-### :eyeglasses: SASS ## :eyeglasses: SASS <a id="sass"></a>
+### :eyeglasses: SASS <a id="sass"></a>
 
 Based on [sass-boilerplate](https://github.com/HugoGiraudel/sass-boilerplate) with some vertical rhythm tweaks and some default style.
 
@@ -119,7 +124,7 @@ CSSNano minifies and optimizes the output CSS.
 
 Autoprefixer adds browser prefixes automatically based on browserlist on **package.json**.
 
-**PostCSS Config:** _postcss.config.js_.
+**PostCSS Config:** _postcss.config.js_
 
 [Learn more about CSSNano](https://cssnano.co/)
 
@@ -130,17 +135,17 @@ Autoprefixer adds browser prefixes automatically based on browserlist on **packa
 The default installation comes with Open Sans Google Font downloaded locally.
 If you a different Google Font, you can use [Google Webfonts Helper](https://google-webfonts-helper.herokuapp.com/fonts) to download the CSS snippet and the fonts file and put them on _src/base/\_fonts.scss_ and _/src/fonts/_ respectively.
 
-## Contributing <a id="contrib"></a>
+## :raising_hand: Contributing <a id="contrib"></a>
 
 Contribuitions are welcome. If you find any problem or have a suggestion, please [open an issue](https://github.com/verzola/bass/issues/new).
 
-## TODO 
+## :warning: Known issues
+
+- Watch does not work on Docker Desktop on Windows ([see](https://discourse.roots.io/t/browsersync-not-watching-changes-in-docker-for-windows/11275))
+
+## :memo: TODO
 
 - [ ] Imagemin section on README
-- [ ] Normalize.css section on README
-- [ ] Footer style
-- [ ] Grid component
-- [ ] 404 page
 - [ ] Contribute file
 - [ ] Pull request template file
 - [ ] Progressive Web App

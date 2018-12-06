@@ -5,8 +5,15 @@
 .l-header {
   background: $dark-grey;
   color: #fff;
-  display: flex;
-  padding: 1rem;
+  left: 0;
+  padding: 1rem 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+
+  .container {
+    display: flex;
+  }
 
   ul {
     display: flex;
@@ -26,9 +33,10 @@
   }
 
   &__brand {
+    font-weight: 300;
     color: #fff;
-    display: block;
-    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
     line-height: 1.45;
   }
 

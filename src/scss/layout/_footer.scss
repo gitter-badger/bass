@@ -4,4 +4,27 @@
 
 .l-footer {
   background: $dark-grey;
+  color: #fff;
+  padding: 1rem 0;
+  font-weight: bold;
+
+  .container {
+    display: flex;
+  }
+
+  &__brand {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+
+  &__social {
+    margin-left: auto;
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  h3 {
+    margin: 0;
+  }
 }

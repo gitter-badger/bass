@@ -8,6 +8,23 @@
 // 2. Vendors
 @import '~normalize.css/normalize.css';
 
+$hamburger-padding-x: 0;
+$hamburger-padding-y: 0;
+$hamburger-layer-width: 30px;
+$hamburger-layer-height: 3px;
+$hamburger-layer-spacing: 6px;
+$hamburger-layer-color: #fff;
+$hamburger-layer-border-radius: 0;
+$hamburger-hover-opacity: 0.7;
+$hamburger-active-layer-color: $hamburger-layer-color;
+$hamburger-active-hover-opacity: $hamburger-hover-opacity;
+$hamburger-hover-use-filter: false;
+$hamburger-hover-filter: opacity(50%);
+$hamburger-active-hover-filter: $hamburger-hover-filter;
+$hamburger-types: (squeeze);
+
+@import '~hamburgers/_sass/hamburgers/hamburgers.scss';
+
 // 3. Base stuff
 @import 'base/base';
 @import 'base/fonts';
@@ -29,6 +46,7 @@
 
 // 6. Page-specific styles
 @import 'pages/home';
+@import 'pages/404';
 
 // 7. Themes
 @import 'themes/default';
