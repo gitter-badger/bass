@@ -4,15 +4,15 @@
 
 .l-header {
   background: $dark-grey;
+  color: #fff;
   display: flex;
   padding: 1rem;
-  color: #fff;
 
   ul {
-    margin: 0;
-    list-style-type: none;
     display: flex;
     font-weight: bold;
+    list-style-type: none;
+    margin: 0;
   }
 
   li:not(:last-child) {
@@ -26,8 +26,10 @@
   }
 
   &__brand {
-    font-weight: bold;
     color: #fff;
+    display: block;
+    font-weight: bold;
+    line-height: 1.45;
   }
 
   &__nav {
