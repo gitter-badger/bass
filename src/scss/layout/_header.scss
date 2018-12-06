@@ -4,9 +4,12 @@
 
 .l-header {
   background: $dark-grey;
-  display: flex;
-  padding: 1rem;
+  padding: 1rem 0;
   color: #fff;
+
+  .container {
+    display: flex;
+  }
 
   ul {
     margin: 0;
