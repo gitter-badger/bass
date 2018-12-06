@@ -146,9 +146,6 @@ Contribuitions are welcome. If you find any problem or have a suggestion, please
 ## :memo: TODO
 
 - [ ] Imagemin section on README
-- [ ] Normalize.css section on README
-- [ ] Footer style
-- [ ] Grid component
 - [ ] Contribute file
 - [ ] Pull request template file
 - [ ] Progressive Web App
