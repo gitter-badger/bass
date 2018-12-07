@@ -37,10 +37,10 @@ Boilerplate for static website based on webpack, best practices and modern tools
 - Auto prefixes CSS
 - 7in1 SASS pattern
 - Comes with:
-  - normalize.css
-  - fontawesome-free
-  - hamburgers
-  - open sans google font
+  - [normalize.css](https://github.com/necolas/normalize.css/)
+  - [fontawesome-free](https://fontawesome.com/free)
+  - [hamburgers](https://github.com/jonsuh/hamburgers)
+  - [Open Sans Google Font](https://fonts.google.com/specimen/Open+Sans)
 
 ## :ballot_box_with_check: Requirements <a id="requirements"></a>
 
