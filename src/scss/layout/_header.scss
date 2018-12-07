@@ -16,23 +16,6 @@
     display: flex;
   }
 
-  ul {
-    display: flex;
-    font-weight: bold;
-    list-style-type: none;
-    margin: 0;
-  }
-
-  li:not(:last-child) {
-    margin-right: 2rem;
-  }
-
-  a {
-    @include on-event {
-      color: #fff;
-    }
-  }
-
   &__brand {
     color: #fff;
     font-weight: 300;
