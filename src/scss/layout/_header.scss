@@ -44,4 +44,16 @@
   &__nav {
     margin-left: auto;
   }
+
+  a {
+    @include on-event {
+      color: #fff;
+    }
+  }
+
+  .hamburger {
+    z-index: 2;
+    position: fixed;
+    right: 1rem;
+  }
 }
