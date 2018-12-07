@@ -154,3 +154,6 @@ Contribuitions are welcome. If you find any problem or have a suggestion, please
 - [ ] Other important meta tags
 - [ ] Extract babel config to a file
 - [ ] Create a chat and badge
+- [ ] Alert component
+- [ ] Label component
+- [ ] Forms components
